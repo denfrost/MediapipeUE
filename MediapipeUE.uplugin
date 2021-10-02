@@ -1,0 +1,27 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Mediapipe Tracking Plugin",
+	"Description": "Simple plugin to feed mediapipe tracking data into unreal",
+	"Category": "Input Devices",
+	"CreatedBy": "zeplin455",
+	"CreatedByURL": "None",
+	"DocsURL": "None",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": true,
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "MediapipeTracking",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"WhitelistPlatforms": [
+				"Win64"
+			]
+		}
+	]
+}
