@@ -37,7 +37,8 @@ public class MediapipeTracking : ModuleRules
                 "CoreUObject",
                 "Engine",
 				"Sockets",
-				"Networking"
+				"Networking",
+				"TrackingUtilities"
 
                 // ... add other public dependencies that you statically link with here ...
 			}
@@ -49,7 +50,8 @@ public class MediapipeTracking : ModuleRules
 				"CoreUObject",
 				"Engine",
 				"Slate",
-				"SlateCore"
+				"SlateCore",
+				"TrackingUtilities"
 				// ... add private dependencies that you statically link with here ...	
 			}
 			);
